@@ -135,8 +135,8 @@ main {
     margin: 130px 100px;
 }
 
-.feature-img {
-    max-width: 700px;
+.feature-list-img {
+    margin-left: 50px;
 }
 
 .feature-content .card {
@@ -152,6 +152,8 @@ main {
     background: #FF900E;
     color: #FFF;
     width: 342px;
+    position: relative;
+    bottom: 100px;
 }
 
 .badge-title {
@@ -166,8 +168,9 @@ main {
 .badge-description {
     color: #FFF;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
+    margin: 0;
     padding-bottom: 40px;
 }
 
@@ -272,17 +275,26 @@ main {
 
     nav,
     .fact-container,
-    .sponsor-container {
+    .sponsor-container
+    {
         flex-direction: column;
     }
 
-    .feature-container {
+    .feature-container,.feature-list {
         margin: 10px;
         flex-direction: column;
     }
 
     .feature-img {
         width: 100%;
+    }
+    .feature-list-img{
+        margin: 0;
+        width: 100%;
+    }
+    .ten-years-badge{
+        max-width: 300px;
+        position: static;
     }
 
     .sponsor-container img {
@@ -298,8 +310,13 @@ main {
     }
 
     nav,
-    .sponsor-container {
+    .sponsor-container,
+    .feature-list {
         flex-direction: column;
+    }
+    .feature-list-img{
+        margin: 0;
+        width: 100%;
     }
 
     .feature-container {
