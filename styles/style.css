@@ -105,13 +105,13 @@ main {
 }
 
 .part1 {
-    color: var(--dark-03, #727272);
+    color: #727272;
     font-size: 2.8rem;
     font-weight: 500;
 }
 
 .part2 {
-    color: var(--dark-01, #131313);
+    color: #131313;
     font-size: 2.8rem;
     font-weight: 700;
 }
@@ -127,6 +127,80 @@ main {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* feature list section style */
+.feature-list {
+    display: flex;
+    gap: 70px;
+    margin: 130px 100px;
+}
+
+.feature-img {
+    max-width: 700px;
+}
+
+.feature-content .card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 15px 30px;
+    margin-bottom: 10px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+}
+
+.badge-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 40px;
+    margin: 0px;
+}
+
+.badge-description {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.feature-list-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+
+.feature-list-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.feature-list-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.feature-card-description {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.feature-list .feature-list-title {
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
 
 /* fact section styles */
 .fact-container {
@@ -182,7 +256,8 @@ main {
     font-size: 1rem;
     font-weight: 400;
 }
-.sponsor-container img{
+
+.sponsor-container img {
     width: 165px;
 }
 
@@ -209,7 +284,8 @@ main {
     .feature-img {
         width: 100%;
     }
-    .sponsor-container img{
+
+    .sponsor-container img {
         width: 200px;
         margin-bottom: 40px;
     }
@@ -221,7 +297,8 @@ main {
         padding: 50px;
     }
 
-    nav, .sponsor-container {
+    nav,
+    .sponsor-container {
         flex-direction: column;
     }
 
@@ -229,7 +306,8 @@ main {
         margin: 50px;
         flex-direction: column-reverse;
     }
-    .sponsor-container img{
+
+    .sponsor-container img {
         margin-bottom: 40px;
         width: 200px
     }
