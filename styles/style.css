@@ -90,8 +90,8 @@ main {
 .feature-container {
     display: flex;
     align-items: center;
-    margin: 80px 200px;
     gap: 3rem;
+    margin: 70px 160px;
 }
 
 .feature-img-container {
@@ -99,7 +99,6 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-
 
 .feature-text {
     width:fit-content;
@@ -139,6 +138,13 @@ main {
     nav {
         flex-direction: column;
     }
+    .feature-container{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .feature-img{
+        width: 100%;
+    }
 }
 
 /* Tablet Or Medium devices */
@@ -150,4 +156,9 @@ main {
     nav {
         flex-direction: column;
     }
+    .feature-container{
+        margin: 50px;
+        flex-direction: column-reverse; 
+    }
+    
 }
